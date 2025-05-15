@@ -1,0 +1,142 @@
+/* Dark blue background with a pro style */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0f1c; /* elegant dark blue */
+  color: #e0f0ff;
+}
+
+/* Strong blue header */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101a30;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 170, 255, 0.2);
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Neon blue navigation bar */
+#nav-bar {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #73cfff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00d9ff;
+}
+
+/* Sections with spacing */
+.section {
+  padding: 100px 20px 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Bright bluish titles */
+h2 {
+  color: #00d9ff;
+  border-bottom: 2px solid #00d9ff;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+/* Pricing container */
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.price-box {
+  background-color: #112240;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+  box-shadow: 0 0 10px rgba(0, 217, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.price-box:hover {
+  transform: scale(1.05);
+}
+
+/* Styled form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+input[type="email"],
+input[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+input[type="email"] {
+  background-color: #1e2a4a;
+  color: #ffffff;
+  border: 1px solid #00d9ff;
+}
+
+input[type="email"]::placeholder {
+  color: #9ecfff;
+}
+
+input[type="submit"] {
+  background-color: #00d9ff;
+  color: #0a0f1c;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #00b2cc;
+}
+
+/* Centered video */
+iframe#video {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #00d9ff;
+  border-radius: 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  #nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
