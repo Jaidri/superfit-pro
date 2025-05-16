@@ -24,9 +24,3 @@ SuperFit Pro is a responsive product landing page for a fictional fitness app. I
 ## 📺 Demo
 
 Watch the demo directly on the page or [click here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
-
-## 📂 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Jaidri/superfit-pro.git
